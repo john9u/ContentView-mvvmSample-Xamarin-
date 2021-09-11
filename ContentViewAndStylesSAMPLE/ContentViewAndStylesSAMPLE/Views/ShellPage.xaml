@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="ContentViewAndStylesSAMPLE.Views.ShellPage"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            xmlns:views="clr-namespace:ContentViewAndStylesSAMPLE.Views">
+ 
+    <views:MenuPage Title="Tab 1" />
+    <views:MenuPage Title="Tab 2" />
+    <views:MenuPage Title="Tab 3" />
+</TabbedPage>
