@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace ContentViewAndStylesSAMPLE.Views
+namespace ContentViewAndStylesXamarin.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MenuView : ContentView
+    public partial class ShellPage : TabbedPage
     {
-        public MenuView()
+        public ShellPage()
         {
             InitializeComponent();
         }

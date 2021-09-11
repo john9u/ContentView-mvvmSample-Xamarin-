@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1A343728-6884-4313-AE33-1D28D136D2CD}</ProjectGuid>
+    <ProjectGuid>{28785452-84C1-4EF1-9889-269AF9BA45ED}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>ContentViewAndStylesSAMPLE.Droid</RootNamespace>
-    <AssemblyName>ContentViewAndStylesSAMPLE.Android</AssemblyName>
+    <RootNamespace>ContentViewAndStylesXamarin.Droid</RootNamespace>
+    <AssemblyName>ContentViewAndStylesXamarin.Android</AssemblyName>
     <Deterministic>True</Deterministic>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -85,16 +85,25 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\ContentViewAndStylesSAMPLE\ContentViewAndStylesSAMPLE.csproj">
-      <Project>{33ED4EB0-B93E-4A9E-9CFC-6EB370E5A787}</Project>
-      <Name>ContentViewAndStylesSAMPLE</Name>
+    <ProjectReference Include="..\ContentViewAndStylesXamarin\ContentViewAndStylesXamarin.csproj">
+      <Project>{20DBCDD7-5B07-46A2-A721-E062D56C7D04}</Project>
+      <Name>ContentViewAndStylesXamarin</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\garage.png" />
+    <AndroidResource Include="Resources\drawable\tab2.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\promotion.png" />
+    <AndroidResource Include="Resources\drawable\tab3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\tab4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\tab5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\tab1.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\car.png" />
@@ -106,7 +115,13 @@
     <AndroidResource Include="Resources\drawable\contract.png" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\garage.png" />
+  </ItemGroup>
+  <ItemGroup>
     <AndroidResource Include="Resources\drawable\part.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\promotion.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

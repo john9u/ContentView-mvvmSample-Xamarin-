@@ -1,9 +1,9 @@
-﻿using ContentViewAndStylesSAMPLE.Views;
+﻿using ContentViewAndStylesXamarin.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace ContentViewAndStylesSAMPLE
+namespace ContentViewAndStylesXamarin
 {
     public partial class App : Application
     {
